@@ -19,6 +19,19 @@ Do the following:
    3. Else just print 'So moody!' / Hadii kale 'So Moody!' soo saar.
 
 */
+let mood =prompt("inter your mood")
+ 
+ if (mood=='happy'){
+   console.log("ay me too!")
+ }
+ else if (mood=='sad'){
+   console.log("aw cheer up!")
+ }
+ else {
+   console.log("soo moody")
+ }
+ 
+ 
 
 
 /*
@@ -33,6 +46,13 @@ Adigoo 'if/else' isticmaalaayo hubi in nambar uu yahay 'kisi ama dhaban', kadi c
 var num = 16; // You can change this number! / Number-kaan ku bilow
 
 // write your conditions here / Code-kaada halkaan ku qor
+if (num%2==0){
+   console.log("the number is even")
+}
+else{
+   console.log("the number is odd")
+}
+
 
 
 
@@ -92,7 +112,21 @@ It's okay for it to be slow.
 
 
 */
+for ( let i=1; i<101; i++){
+   if (i%15===0){
+      console.log("FIZZBUZZ");
+   }
+   else if (i%3===0){
+      console.log("FIzz");
+   }
+   else if (i%5===0){
+      console.log("BUZZ");
+   }
+   else{
+      console.log(i);
+   }
 
+}
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
